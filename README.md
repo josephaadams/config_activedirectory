@@ -49,8 +49,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Configure static private IP addresses for the VMs to ensure consistent connectivity.
 
-<img src="https://i.imgur.com/zHMw1jx.png"
-<img src="https://i.imgur.com/DaRp0Ai.png"
+<img src="https://i.imgur.com/zHMw1jx.png"/>
+<img src="https://i.imgur.com/DaRp0Ai.png"/>
 
 
 
@@ -87,8 +87,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - DNS services are installed automatically with AD DS. Verify configuration to ensure domain name resolution works correctly.
 
-<img src="https://i.imgur.com/prh9Zsl.png"
-<img src="https://i.imgur.com/XAM3FK0.png"
+<img src="https://i.imgur.com/prh9Zsl.png"/>
+<img src="https://i.imgur.com/XAM3FK0.png"/>
 
 
 **4. Join Client Machines to the Domain**
@@ -128,7 +128,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 5. Test logging into Client-1 as a non-administrative user.
 
 
-<img src="https://i.imgur.com/m8pri8l.png"
+<img src="https://i.imgur.com/m8pri8l.png"/>
 
 **6. Bulk Create Users**
 
@@ -140,7 +140,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 4. Test logging into Client-1 with one of the newly created accounts.
 
-<img src="https://i.imgur.com/lMPKPUa.png"
+<img src="https://i.imgur.com/lMPKPUa.png"/>
 
 
 
