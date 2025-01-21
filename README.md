@@ -39,11 +39,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 1. Create Virtual Machines:
 
-- DC-1: For the first Domain Controller.
+- DC-1: For the first Domain Controller. For the image choose Windows Server 2022.
 
-- Client-1: For client machine testing.
+- Client-1: For client machine testing. For the image choose Windows 10 Pro.
 
-- Choose a Windows Server operating system (e.g., Windows Server 2022).
+- Size: Choose a minimum of 2vcpus.
 
 2. Assign Static Private IPs:
 
