@@ -59,33 +59,73 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 1. Install Active Directory Domain Services (AD DS):
 
-- Log in to DC-1.
+- Log in to DC-1 using Remote Desktop.
 
-- Use the Server Manager to install the "Active Directory Domain Services" role.
+- Open Server Manager.
+
+- Click on Manage > Add Roles and Features.
+
+- Select Role-based or feature-based installation.
+
+- Choose the DC-1 server and click Next.
+
+- Under Server Roles, check Active Directory Domain Services, then click Add Features when prompted.
+
+- Click Next, then Install, and wait for the installation to complete.
 
 2. Promote the Server to a Domain Controller:
 
-- Configure the domain name (e.g., mydomain.com).
+- After installation, go back to Server Manager.
 
-- Set up a new forest.
+- Click on the flag notification at the top and select Promote this server to a domain controller.
 
-- Restart and log back in to DC-1 as mydomain.com\labuser.
+- Choose Add a new forest and enter the domain name (e.g., mydomain.com).
+
+- Set up the Forest Functional Level (choose the highest available version).
+
+- Create and confirm a Directory Services Restore Mode (DSRM) password.
+
+- Click Next through the additional options, ensuring DNS Server is selected.
+
+- Review and Install, then restart the server once the promotion is complete.
+
+- Log back in using mydomain.com\labuser.
 
 3. Create a Domain Admin User:
 
-- Open Active Directory Users and Computers (ADUC).
+- Open Active Directory Users and Computers (ADUC) from Server Manager > Tools.
 
-- Create an Organizational Unit (OU) called _EMPLOYEES.
+- Expand your domain (mydomain.com).
 
-- Create a new OU named _ADMINS.
+- Right-click on the domain name, go to New > Organizational Unit, and name it _EMPLOYEES.
 
-- Create a new user named jane_admin with password Cyberlab123! and add it to the Domain Admins Security Group.
+- Repeat the process to create another OU named _ADMINS.
+
+- Right-click _ADMINS, select New > User.
+
+- Enter First Name: Jane, Last Name: Doe, User logon name: jane_admin, then click Next.
+
+- Set the password to Cyberlab123! and ensure Password never expires is checked.
+  
+- Click Next and Finish.
+
+- Right-click jane_admin, select Properties.
+
+- Under Member Of, click Add, type Domain Admins, then click OK.
 
 - Log out and log back in as mydomain.com\jane_admin.
 
 4. Install DNS Services:
 
-- DNS services are installed automatically with AD DS. Verify configuration to ensure domain name resolution works correctly.
+- DNS is installed automatically with AD DS, but you should verify it.
+
+- Open DNS Manager from Server Manager > Tools.
+
+- Expand the server name and ensure that your domain name appears under Forward Lookup Zones.
+
+- Right-click the domain name, go to Properties, and ensure Dynamic updates is set to Secure only.
+
+- Use nslookup on a command prompt to test DNS resolution for mydomain.com.
 
 <img src="https://i.imgur.com/prh9Zsl.png"/>
 <img src="https://i.imgur.com/XAM3FK0.png"/>
