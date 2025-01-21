@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 **1. Prepare Your Azure Environment**
 
-1. Create an Azure Account: Sign up for a free or paid Azure subscription if you don’t already have one. Please check my tutorial on how to create a VM on Microsoft Azure: https://github.com/josephaadams/azure-vmcreation
+1. Create an Azure Account: Sign up for a free or paid Azure subscription if you don’t already have one. Please check my tutorial on how to create a VM with a resource group on Microsoft Azure: https://github.com/josephaadams/azure-vmcreation
 
 2. Set Up a Resource Group: Navigate to the Azure portal and create a new resource group to manage your resources efficiently.
 
