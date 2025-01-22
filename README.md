@@ -78,7 +78,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/BsIs29m.png"/>
 <img src="https://i.imgur.com/r9ZAaIp.png"/>
 
-- 
 
   
 
@@ -114,19 +113,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Right-click _ADMINS, select New > User.
 
-- Enter First Name: Jane, Last Name: Doe, User logon name: jane_admin, then click Next.
+- Enter First Name: Laura, Last Name: Obando, User logon name: laura_admin, then click Next.
 
-- Set the password to Cyberlab123! and ensure Password never expires is checked.
+- Set the password to Password1! and ensure Password never expires is checked.
   
 - Click Next and Finish.
 
-- Right-click jane_admin, select Properties.
+- Right-click laura_admin, select Properties.
 
 - Under Member Of, click Add, type Domain Admins, then click OK.
 
-- Log out and log back in as mydomain.com\jane_admin.
+- Log out and log back in as mydomain.com\laura_admin.
 
-  
+
+<img src="https://i.imgur.com/SVKvyy1.png"/>
+<img src="https://i.imgur.com/noFrwwm.png"/>
+<img src="https://i.imgur.com/jVvadHw.png"/>
+
 
 4. Install DNS Services:
 
