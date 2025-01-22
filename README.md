@@ -65,7 +65,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Click on Manage > Add Roles and Features.
 
-- Select Role-based or feature-based installation.
+- Select Role-based installation.
 
 - Choose the DC-1 server and click Next.
 
