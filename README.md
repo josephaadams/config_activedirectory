@@ -71,7 +71,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Under Server Roles, check Active Directory Domain Services, then click Add Features when prompted.
 
-- Click Next, then Install, and wait for the installation to complete.
+- Click Next, then Install, and wait for the installation to complete
+
+
+<img src="https://i.imgur.com/TvT0yXh.png"/>
+<img src="https://i.imgur.com/BsIs29m.png"/>
+<img src="https://i.imgur.com/r9ZAaIp.png"/>
+
+- 
 
   
 
