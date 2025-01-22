@@ -73,6 +73,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Click Next, then Install, and wait for the installation to complete.
 
+  
+
 2. Promote the Server to a Domain Controller:
 
 - After installation, go back to Server Manager.
@@ -90,6 +92,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Review and Install, then restart the server once the promotion is complete.
 
 - Log back in using mydomain.com\labuser.
+
+  
 
 3. Create a Domain Admin User:
 
@@ -114,6 +118,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Under Member Of, click Add, type Domain Admins, then click OK.
 
 - Log out and log back in as mydomain.com\jane_admin.
+
+  
 
 4. Install DNS Services:
 
