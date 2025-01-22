@@ -143,7 +143,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Use nslookup on a command prompt to test DNS resolution for mydomain.com.
 
-<img src="https://i.imgur.com/prh9Zsl.png"/>
+
 <img src="https://i.imgur.com/XAM3FK0.png"/>
 
 
